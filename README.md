@@ -1,3 +1,10 @@
+# ChatWhisper
+ChatWhisper: A Next.js and TypeScript interface for the ChatWhisper API, enabling real-time, AI-enhanced chat interactions. Efficiently connects with Django backends for robust communication solutions.
+
+![ChatWhisper Interface](/public/ChatWhisper.png)
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

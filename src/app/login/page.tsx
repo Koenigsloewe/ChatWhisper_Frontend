@@ -1,4 +1,3 @@
-import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,8 +6,9 @@ import { buttonVariants } from "@/components/ui/button";
 import { UserLoginForm } from "./components/user-login-form"; 
 
 import { GrChat } from "react-icons/gr";
+import { Metadata } from "next";
 
-export const metadata: Metadata = {
+export const pageMetadata: Metadata = {
   title: "Log In",
   description: "Access your ChatWhisper account.",
 };
@@ -18,14 +18,14 @@ export default function LoginPage() {
     <>
       <div className="md:hidden">
         <Image
-          src="/examples/authentication-light.png"
+          src="/@/../public/neural_network.png"
           width={1280}
           height={843}
           alt="Log In"
           className="block dark:hidden"
         />
         <Image
-          src="/examples/authentication-dark.png"
+          src="/@/../public/neural_network.png"
           width={1280}
           height={843}
           alt="Log In"
